@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(202, 66, 66);
+
+}
+
+span{
+    background-image: url('./assets/315953_cloud_snowflakes_icon.svg');
+    
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+}
