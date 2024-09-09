@@ -1,4 +1,4 @@
-## Mouse Tracker Effect
+## Snow Icon Animation
 
 This JavaScript project creates an interactive mouse tracking effect on a webpage. The script dynamically generates and animates elements that follow the user's mouse movements across the screen, creating a visually engaging trail effect.
 
