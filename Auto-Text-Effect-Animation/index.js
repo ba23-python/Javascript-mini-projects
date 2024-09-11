@@ -1,10 +1,10 @@
 const containerEl = document.querySelector(".container");
 
 const careers = [
-  "Salesforce Marketing Cloud Specialist",
-  "Web and Email Developer",
-  "working with Javascript, HTML, CSS",
-  "Open to work",
+  "am a Salesforce Marketing Cloud Specialist",
+  "am a Web and Email Developer",
+  "coded this animation with Javascript, HTML, CSS",
+  "am Open to work",
   "..."
 ];
 
@@ -16,10 +16,7 @@ updateText();
 function updateText() {
   characterIndex++;
   containerEl.innerHTML = `
-    <h1>I am ${careers[careerIndex].slice(0, 1) === "I" ? "an" : "a"} ${careers[
-    careerIndex
-  ].slice(0, characterIndex)}</h1>
-    `;
+    <h1> I ${careers[careerIndex].slice(0, characterIndex)}</h1>`;
 
   if (characterIndex === careers[careerIndex].length) {
     careerIndex++;
