@@ -2,4 +2,4 @@ Watch the demo
 
 (https://youtu.be/DDtld9mszhU)
 
-![This is how it looks like in the browser](assets/coded_this.png)
+![This is how it looks like in the browser](./assets/coded_this.PNG)
