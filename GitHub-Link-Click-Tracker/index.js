@@ -7,8 +7,10 @@ document.addEventListener("DOMContentLoaded", function() {
         // Increment the click count
         linkClickCount++;
 
-        // Update the displayed click count in the <span> element
-        document.getElementById("display").textContent = linkClickCount;
+        // Use requestAnimationFrame to update the displayed click count more efficiently
+        requestAnimationFrame(function() {
+            document.getElementById("display").textContent = linkClickCount;
+        });
 
         // Optionally, log the number of clicks in the browser console
         console.log("GitHub link clicked " + linkClickCount + " times.");
