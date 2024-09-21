@@ -1,6 +1,7 @@
-This is how it looks like in the browser before hovering the mouse
-![This is how it looks like in the browser before hovering the mouse](./assets/before.PNG)
 
-This is how it looks like in the browser after hovering the mouse
 
-![This is how it looks like in the browser after hovering the mouse](./assets/aftermouse.PNG)
+This is how it looks like in the browser before and after hovering the mouse
+
+
+
+ ![Before and After](https://github.com/ba23-python/Javascript-mini-projects/blob/main/Button-Ripple-Effect/assets/Before-mouse-hover.gif)
